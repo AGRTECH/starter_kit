@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import tokenLogo from "../token-logo.png";
+import tokenLogo from "../agrlogo.png";
 import ethLogo from "../eth-logo.png";
 
 class BuyForm extends Component {
@@ -73,13 +73,13 @@ class BuyForm extends Component {
           <div className="input-group-append">
             <div className="input-group-text">
               <img src={tokenLogo} height="32" alt="" />
-              &nbsp; DApp
+              &nbsp; AGR
             </div>
           </div>
         </div>
         <div className="mb-5">
           <span className="float-left text-muted">Exchange Rate</span>
-          <span className="float-right text-muted">1 ETH = 100 DApp</span>
+          <span className="float-right text-muted">1 ETH = 100 AGR</span>
         </div>
         <button type="submit" className="btn btn-primary btn-block btn-lg">
           SWAP!
